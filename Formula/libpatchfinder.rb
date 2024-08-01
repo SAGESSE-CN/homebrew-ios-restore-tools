@@ -1,5 +1,5 @@
 class Libpatchfinder < Formula
-  desc "ARM offsetfinder. It finds offsets, patches, parses Mach-O and even supports IMG4/IMG3"
+  desc "ARM offsetfinder. Findes offsets, patches, parses Mach-O and supports IMG4/IMG3"
   homepage "https://github.com/tihmstar/libpatchfinder"
   license "LGPL-2.1-only"
   head "https://github.com/tihmstar/libpatchfinder.git", branch: "master"
