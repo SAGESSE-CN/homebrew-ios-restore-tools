@@ -4,7 +4,7 @@ class LibimobiledeviceGlue < Formula
   url "https://github.com/libimobiledevice/libimobiledevice/releases/download/1.3.0/libimobiledevice-1.3.0.tar.bz2"
   sha256 "53f2640c6365cd9f302a6248f531822dc94a6cced3f17128d4479a77bd75b0f6"
   license "LGPL-2.1-or-later"
-  head "https://github.com/libimobiledevice/libimobiledevice.git", branch: "master"
+  head "https://github.com/libimobiledevice/libimobiledevice.git", tag: "1.3.0"
 
   bottle do
     sha256 cellar: :any,                 arm64_sonoma:   "5e00139aad86809adde7ad17bceeedda2a3177372df04fbe9a91bc3fa1366a5b"
