@@ -1,10 +1,10 @@
 class LibimobiledeviceGlue < Formula
   desc "Library with common system API code for libimobiledevice projects"
   homepage "https://libimobiledevice.org/"
-  url "https://github.com/libimobiledevice/libimobiledevice/releases/download/1.3.0/libimobiledevice-1.3.0.tar.bz2"
-  sha256 "53f2640c6365cd9f302a6248f531822dc94a6cced3f17128d4479a77bd75b0f6"
+  url "https://github.com/libimobiledevice/libimobiledevice-glue/releases/download/1.3.0/libimobiledevice-glue-1.3.0.tar.bz2"
+  sha256 "96ec4eb2b1e217392149eafb2b5c3cd3e7110200f0e2bb5003c37d3ead7244ef"
   license "LGPL-2.1-or-later"
-  head "https://github.com/libimobiledevice/libimobiledevice.git", tag: "1.3.0"
+  head "https://github.com/libimobiledevice/libimobiledevice-glue.git", tag: "1.3.0"
 
   bottle do
     sha256 cellar: :any,                 arm64_sonoma:   "5e00139aad86809adde7ad17bceeedda2a3177372df04fbe9a91bc3fa1366a5b"
